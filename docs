@@ -31,3 +31,62 @@ El sistema se divide en cinco módulos principales, distribuidos en diferentes c
         ↓
 [Módulo de Seguridad y Gestión de Usuarios]
 
+# Diagrama de Flujo del Sistema ERP Agrícola
+
+Este diagrama representa el flujo de información dentro del sistema desde la creación del usuario hasta la generación de reportes e informes sobre los cultivos.
+
+---
+
+## 🔄 1. Descripción general
+
+El flujo comienza con la creación del usuario en la página web, continúa con la validación y registro de sus datos, y finaliza con la generación de informes una vez que la información del campo es procesada y almacenada.
+
+---
+
+## 🧩 2. Diagrama de flujo (representación textual)
+
+```text
+[Creación del usuario desde la página web]
+                ↓
+[Validar datos del usuario]
+                ↓
+[Registrar usuario]
+                ↓
+[Digilenciar información del campo]
+                ↓
+[Permisos de realización de estudios]
+                ↓
+[Almacenamiento de datos]
+                ↓
+[Generación de informe]
+
+# Diagrama de Flujo del Sistema ERP Agrícola
+
+Este diagrama representa el flujo de información dentro del sistema desde la creación del usuario hasta la generación de reportes e informes sobre los cultivos.
+
+---
+
+## 🔄 1. Descripción general
+
+El flujo comienza con la creación del usuario en la página web, continúa con la validación y registro de sus datos, y finaliza con la generación de informes una vez que la información del campo es procesada y almacenada.
+
+---
+
+## 🧩 2. Diagrama de flujo (representación textual)
+
+```text
+[Creación del usuario desde la página web]
+                ↓
+[Validar datos del usuario]
+                ↓
+[Registrar usuario]
+                ↓
+[Digilenciar información del campo]
+                ↓
+[Permisos de realización de estudios]
+                ↓
+[Almacenamiento de datos]
+                ↓
+[Generación de informe]
+
+
