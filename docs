@@ -1,1 +1,33 @@
+# Arquitectura Modular del Sistema ERP Agrícola con Big Data e IA
+
+Este documento describe la arquitectura modular del sistema, organizada por capas que permiten el desarrollo, mantenimiento y escalabilidad del software.
+
+---
+
+## 🧩 1. Estructura general
+
+El sistema se divide en cinco módulos principales, distribuidos en diferentes capas de la arquitectura:
+
+| Módulo | Capa | Función principal |
+|--------|------|------------------|
+| **Módulo de Adquisición de Datos** | Capa de **entrada / presentación** | Recolecta información de cultivos y clima provenientes del usuario o de sensores. |
+| **Módulo de Ingesta y Almacenamiento** | Capa de **datos** | Guarda los datos en una base estructurada para su posterior análisis. |
+| **Módulo de Procesamiento y Analítica** | Capa de **lógica de negocio** | Analiza los datos y genera predicciones sobre rendimiento, clima y plagas. |
+| **Módulo de Visualización y Reportes** | Capa de **presentación** | Muestra resultados y gráficos al usuario de forma clara y dinámica. |
+| **Módulo de Seguridad y Gestión de Usuarios** | **Capa transversal (afecta todas las capas)** | Controla el acceso, la autenticación y la privacidad de los datos. |
+
+---
+
+## 🔄 2. Diagrama de arquitectura modular (representación textual)
+
+```text
+[Módulo de Adquisición de Datos]
+        ↓
+[Módulo de Ingesta y Almacenamiento]
+        ↓
+[Módulo de Procesamiento y Analítica]
+        ↓
+[Módulo de Visualización y Reportes]
+        ↓
+[Módulo de Seguridad y Gestión de Usuarios]
 
